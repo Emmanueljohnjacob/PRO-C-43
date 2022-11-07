@@ -1,6 +1,7 @@
 const accessCode1 = "VARIABLE";
 const accessCode2 = "FUNCTION";
 const accessCode3 = "DATABASE";
+const accessCode4 = "LOOPS";
 
 function clues() {
     
@@ -21,5 +22,11 @@ function clues() {
     text("A T E D A S B A", 100,250)
     fill("lightblue")
     text("Hint: Stores all information !!", 100,270)
+    
+    fill("white")
+    textSize(15)
+    text("O P O L S", 100,250)
+    fill("lightblue")
+    text("Hint: Goes on and on...  !!", 700,270)
 
 }
